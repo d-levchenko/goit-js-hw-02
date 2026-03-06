@@ -1,5 +1,6 @@
+'use strict';
+
 function makeTransaction(quantity, pricePerDroid, customerCredits) {
-  'use strict';
   let totalPrice = quantity * pricePerDroid;
 
   if (customerCredits >= totalPrice) {

@@ -1,5 +1,6 @@
+'use strict';
+
 function formatMessage(message, maxLength) {
-  'use strict';
   let cutMessage = message.slice(0, maxLength) + '...';
 
   if (message.length <= maxLength) {

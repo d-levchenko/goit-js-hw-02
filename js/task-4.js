@@ -1,5 +1,6 @@
+'use strict';
+
 function getShippingCost(country) {
-  'use strict';
   let costToCountry;
 
   switch (country) {
